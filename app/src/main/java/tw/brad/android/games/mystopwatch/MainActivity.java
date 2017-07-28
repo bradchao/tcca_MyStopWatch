@@ -18,7 +18,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void doLeft(View v){
-
+        if (isRunning){
+            // Lap
+            doLap();
+        }else{
+            // Reset
+            doReset();
+        }
     }
 
     public void doRight(View v){
@@ -26,12 +32,27 @@ public class MainActivity extends AppCompatActivity {
         if (isRunning){
             rightBtn.setText("Stop");
             leftBtn.setText("Lap");
+            doStart();
         }else{
             rightBtn.setText("Start");
             leftBtn.setText("Reset");
+            doStop();
         }
+    }
 
+    private void doStart(){
 
     }
+    private void doStop(){
+
+    }
+    private void doLap(){
+
+    }
+    private void doReset(){
+
+    }
+
+
 
 }
