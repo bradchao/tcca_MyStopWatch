@@ -22,6 +22,7 @@
         android:orientation="horizontal"
         >
         <Button
+            android:id="@+id/leftBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Reset"
@@ -29,6 +30,7 @@
             android:onClick="doLeft"
             />
         <Button
+            android:id="@+id/rightBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Start"
