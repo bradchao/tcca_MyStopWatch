@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         leftBtn = (Button)findViewById(R.id.leftBtn);
         rightBtn = (Button)findViewById(R.id.rightBtn);
+        
     }
 
     public void doLeft(View v){
